@@ -5,7 +5,6 @@ void main() {  runApp(MaterialApp(
 ));
 }
 
-
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -18,16 +17,7 @@ class Home extends StatelessWidget {
           backgroundColor: Colors.indigo.shade100
       ),
       body: Center(
-        child: Text(
-          'hello world',
-          style: TextStyle(
-            fontSize: 50,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
-            color: Colors.black,
-            fontFamily: 'new',
-          ),
-        ),
+        child: Image.asset("assets/a.jpg"), // after changing in pubspec.yaml
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('press'),
